@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/privacy-and-cookie-policy-Demo/static/css/main.2944ac0c.css",
+    "main.js": "/privacy-and-cookie-policy-Demo/static/js/main.2d41bed9.js",
+    "static/js/453.34fa4ce2.chunk.js": "/privacy-and-cookie-policy-Demo/static/js/453.34fa4ce2.chunk.js",
+    "static/media/Dash.PNG": "/privacy-and-cookie-policy-Demo/static/media/Dash.21ffe801b348d6bf284e.PNG",
+    "index.html": "/privacy-and-cookie-policy-Demo/index.html",
+    "main.2944ac0c.css.map": "/privacy-and-cookie-policy-Demo/static/css/main.2944ac0c.css.map",
+    "main.2d41bed9.js.map": "/privacy-and-cookie-policy-Demo/static/js/main.2d41bed9.js.map",
+    "453.34fa4ce2.chunk.js.map": "/privacy-and-cookie-policy-Demo/static/js/453.34fa4ce2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2944ac0c.css",
+    "static/js/main.2d41bed9.js"
+  ]
+}
