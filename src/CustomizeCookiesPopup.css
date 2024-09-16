@@ -1,0 +1,168 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    color: #333;
+    padding: 30px;
+    width: 600px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    text-align: left;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #777;
+    cursor: pointer;
+}
+
+.cookie-option {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cookie-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cookie-description {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.toggle {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #28a745;
+}
+
+input:checked+.slider:before {
+    transform: translateX(14px);
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    position: sticky;
+}
+
+.reject-all,
+.save-preferences {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+}
+
+.reject-all {
+    color: #007bff;
+    border: 1px solid #007bff;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reject-all:hover {
+    background-color: #e6f0ff;
+    /* Optional: Add hover effect */
+}
+
+.save-preferences {
+    background-color: #007bff;
+    color: white;
+    font-size: 15px;
+
+}
+
+.save-preferences:hover {
+    background-color: #0056b3;
+}
+
+.accept-all-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    width: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.accept-all-button:hover {
+    background-color: #0056b3;
+}
