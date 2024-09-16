@@ -1,0 +1,65 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Dim background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+    /* Add this to position the close button */
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #777;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: #333;
+}
+
+.cookie-adjust-link {
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cookie-adjust-link:hover {
+    color: #0056b3;
+}
+
+.adjust-cookies-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.adjust-cookies-button:hover {
+    background-color: #0056b3;
+}
