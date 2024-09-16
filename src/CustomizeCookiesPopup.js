@@ -7,14 +7,14 @@ function CustomizeCookiesPopup({ onClose }) {
             <div className="popup-content">
                 <button className="close-button" onClick={onClose}>X</button>
                 <h2>Privacy Preference Center</h2>
-                <p style={{ fontSize: '20px' }}>
+                <p style={{ fontSize: '16px' }}>
                     When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This
                     information might be about you, your preferences, or your device and is mostly used to make the site work as you expect
                     it to. The information does not usually directly identify you, but it can give you a more personalized web experience.
                     Because we respect your right to privacy, you can choose not to allow some types of cookies. However, blocking some types
                     of cookies may impact your experience of the site and the services we are able to offer.
                 </p>
-                <button className="accept-all-button">Accept All</button>
+                <button className="accept-all-button" onClick={onClose}>Accept All</button>
 
                 <div className="toggle-options">
                     <div className="cookie-option">
@@ -88,8 +88,8 @@ function CustomizeCookiesPopup({ onClose }) {
                 </div>
 
                 <div className="popup-buttons">
-                    <button className="reject-all">Reject all</button>
-                    <button className="save-preferences">Save my preferences</button>
+                    <button className="reject-all" onClick={onClose}>Reject all</button>
+                    <button className="save-preferences" onClick={onClose}>Save my preferences</button>
                 </div>
             </div>
         </div>
