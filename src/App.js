@@ -3,11 +3,14 @@ import './App.css';
 import CookiePolicy from './CookiePolicy';
 import CustomizeCookiesPopup from './CustomizeCookiesPopup';
 import PrivacyPolicyPopup from './PrivacyPolicyPopup';
+import PrivacyPolicyPDF from './PrivacyPolicyPDF';
+import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
   const [showCustomizePopup, setShowCustomizePopup] = useState(false);
   const [showCookieBanner, setShowCookieBanner] = useState(true);
   const [showPrivacyPopup, setShowPrivacyPopup] = useState(false);
+  const [showPDFPopup, setShowPDFPopup] = useState(false); // State for PDF popup
 
   const handleSettings = () => {
     setShowCookieBanner(false);
@@ -17,6 +20,7 @@ function App() {
   const handleClosePopup = () => {
     setShowCustomizePopup(false);
     setShowPrivacyPopup(false);
+    setShowPDFPopup(false); // Close PDF popup
   };
 
   const handleAdjustCookies = () => {
@@ -24,13 +28,9 @@ function App() {
     setShowCustomizePopup(true);
   };
 
-  const openPrivacyPolicy = () => {
-    setShowPrivacyPopup(true); // Show the privacy policy popup
-  };
-
-  const handleOpenPrivacyPolicy = () => {
+  const openPrivacyPolicyPDF = () => {
     setShowCookieBanner(false); // Close the cookie banner
-    setShowPrivacyPopup(true); // Open the privacy policy popup
+    setShowPDFPopup(true); // Open the PDF popup
   };
 
   return (
@@ -39,7 +39,7 @@ function App() {
         {showCookieBanner && (
           <CookiePolicy
             handleSettings={handleSettings}
-            handleOpenPrivacyPolicy={handleOpenPrivacyPolicy} // Updated here
+            handleOpenPrivacyPolicy={openPrivacyPolicyPDF} // Updated here
           />
         )}
         {showPrivacyPopup && (
@@ -48,11 +48,14 @@ function App() {
         {showCustomizePopup && (
           <CustomizeCookiesPopup
             onClose={handleClosePopup}
-            handleOpenPrivacyPolicy={handleOpenPrivacyPolicy} // Updated here
+            handleOpenPrivacyPolicy={openPrivacyPolicyPDF} // Updated here
           />
         )}
+        {showPDFPopup && (
+          <PrivacyPolicyPDF onClose={handleClosePopup} />
+        )}
         <div className="navbar">
-          <button className="privacy-button" onClick={openPrivacyPolicy}>
+          <button className="privacy-button" onClick={openPrivacyPolicyPDF}>
             Privacy Policy
           </button>
         </div>
