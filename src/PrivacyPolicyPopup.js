@@ -13,7 +13,9 @@ function PrivacyPolicyPopup({ onClose, onAdjustCookies }) {
     return (
         <div className="popup-overlay">
             <div className="popup-content">
-                <button className="cross-close-button" onClick={onClose}>X</button>
+                <button className="close-button" onClick={onClose}>
+                    <i className="fa fa-times" aria-hidden="true"></i>
+                </button>
                 <h2>Cookie Policy</h2>
                 <p>
                     The website <strong>www.sbibank.com</strong> (the “Website”) uses cookies, including third-party cookies. This policy will

@@ -4,6 +4,31 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Import the favicon from the src folder
+import sbiLogo from './assets/61fc00073cf0e70004222069.png'; // Adjust path if needed
+
+// Change the page title
+document.title = "SBI";
+
+// Function to change the favicon dynamically
+const setFavicon = (iconUrl) => {
+  const link = document.createElement('link');
+  link.rel = 'icon';
+  link.href = iconUrl;
+
+  // Remove existing favicons if they exist
+  const oldLink = document.querySelector("link[rel*='icon']");
+  if (oldLink) {
+    document.head.removeChild(oldLink);
+  }
+
+  // Append the new favicon
+  document.head.appendChild(link);
+};
+
+// Set the favicon using the imported image
+setFavicon(sbiLogo);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -11,7 +36,4 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
