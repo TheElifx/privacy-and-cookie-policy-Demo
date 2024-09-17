@@ -1,7 +1,12 @@
 import React from 'react';
 import './CustomizeCookiesPopup.css';
 
-function CustomizeCookiesPopup({ onClose }) {
+function CustomizeCookiesPopup({ onClose, handleOpenPrivacyPolicy  }) {
+    const handlePrivacyPolicyClick = () => {
+        onClose(); // Close the current popup
+        handleOpenPrivacyPolicy(); // Open the privacy policy popup
+    };
+
     return (
         <div className="popup-overlay">
             <div className="popup-content">
@@ -12,7 +17,7 @@ function CustomizeCookiesPopup({ onClose }) {
                     information might be about you, your preferences, or your device and is mostly used to make the site work as you expect
                     it to. The information does not usually directly identify you, but it can give you a more personalized web experience.
                     Because we respect your right to privacy, you can choose not to allow some types of cookies. However, blocking some types
-                    of cookies may impact your experience of the site and the services we are able to offer.
+                    of cookies may impact your experience of the site and the services we are able to offer. For more details check our <a href="#" onClick={handlePrivacyPolicyClick}>Cookie Policy</a>.
                 </p>
                 <button className="accept-all-button" onClick={onClose}>Accept All</button>
 

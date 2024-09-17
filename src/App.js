@@ -21,21 +21,36 @@ function App() {
 
   const handleAdjustCookies = () => {
     setShowPrivacyPopup(false);
-    setShowCustomizePopup(true); // Open the customize cookies popup when clicking "Adjust Cookies"
+    setShowCustomizePopup(true);
   };
 
   const openPrivacyPolicy = () => {
     setShowPrivacyPopup(true); // Show the privacy policy popup
   };
 
+  const handleOpenPrivacyPolicy = () => {
+    setShowCookieBanner(false); // Close the cookie banner
+    setShowPrivacyPopup(true); // Open the privacy policy popup
+  };
+
   return (
     <div className="App">
       <div className="background-container">
-        {showCookieBanner && <CookiePolicy handleSettings={handleSettings} />}
+        {showCookieBanner && (
+          <CookiePolicy
+            handleSettings={handleSettings}
+            handleOpenPrivacyPolicy={handleOpenPrivacyPolicy} // Updated here
+          />
+        )}
         {showPrivacyPopup && (
           <PrivacyPolicyPopup onClose={handleClosePopup} onAdjustCookies={handleAdjustCookies} />
         )}
-        {showCustomizePopup && <CustomizeCookiesPopup onClose={handleClosePopup} />}
+        {showCustomizePopup && (
+          <CustomizeCookiesPopup
+            onClose={handleClosePopup}
+            handleOpenPrivacyPolicy={handleOpenPrivacyPolicy} // Updated here
+          />
+        )}
         <div className="navbar">
           <button className="privacy-button" onClick={openPrivacyPolicy}>
             Privacy Policy
