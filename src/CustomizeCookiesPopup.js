@@ -10,7 +10,9 @@ function CustomizeCookiesPopup({ onClose, handleOpenPrivacyPolicy  }) {
     return (
         <div className="popup-overlay">
             <div className="popup-content">
-                <button className="close-button" onClick={onClose}>X</button>
+                <button className="close-button" onClick={onClose}>
+                    <i className="fa fa-times" aria-hidden="true"></i>
+                </button>
                 <h2>Privacy Preference Center</h2>
                 <p style={{ fontSize: '16px' }}>
                     When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This

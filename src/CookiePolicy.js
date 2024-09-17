@@ -25,7 +25,9 @@ function CookiePolicy({ handleSettings, handleOpenPrivacyPolicy }) {
     return (
         isVisible && (
             <div className="cookie-policy">
-                <button className="close-button" onClick={handleClose}>X</button>
+                <button className="close-button" onClick={handleClose}>
+                    <i className="fa fa-times" aria-hidden="true"></i>
+                </button>
                 <div className="cookie-text">
                     <p>
                         We use cookies to analyze traffic and deliver personalized content. Click “Accept and Continue” to allow all cookies.
