@@ -33,23 +33,28 @@ function App() {
     setShowPDFPopup(true); // Open the PDF popup
   };
 
+  const openPrivacyPolicyPopup = () => {
+    setShowCookieBanner(false); // Close the cookie banner
+    setShowPrivacyPopup(true); // Open the Privacy Policy Popup
+  };
+
   return (
     <div className="App">
       <div className="background-container">
         {showCookieBanner && (
-          <CookiePolicy
-            handleSettings={handleSettings}
-            handleOpenPrivacyPolicy={openPrivacyPolicyPDF} // Updated here
-          />
+         <CookiePolicy
+         handleSettings={handleSettings}
+         handleOpenPrivacyPolicy={openPrivacyPolicyPopup} // Updated here to open PrivacyPolicyPopup
+       />
         )}
         {showPrivacyPopup && (
           <PrivacyPolicyPopup onClose={handleClosePopup} onAdjustCookies={handleAdjustCookies} />
         )}
         {showCustomizePopup && (
           <CustomizeCookiesPopup
-            onClose={handleClosePopup}
-            handleOpenPrivacyPolicy={openPrivacyPolicyPDF} // Updated here
-          />
+          onClose={handleClosePopup}
+          handleOpenPrivacyPolicy={openPrivacyPolicyPopup} // Open PrivacyPolicyPopup here
+        />
         )}
         {showPDFPopup && (
           <PrivacyPolicyPDF onClose={handleClosePopup} />
