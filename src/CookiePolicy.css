@@ -33,7 +33,7 @@
   }
   
   .cookie-text a {
-    color: #007bff;
+    color: #0056b3;
     text-decoration: none;
   }
   
@@ -57,15 +57,15 @@
   }
   
   .accept-button {
-    background-color: #007bff;
+    background-color: #0056b3;
     color: #fff;
-    border: 1px solid #007bff;
+    border: 1px solid #0056b3;
   }
   
   .settings-button {
     background-color: #fff;
-    color: #007bff;
-    border: 1px solid #007bff;
+    color: #0056b3;
+    border: 1px solid #0056b3;
   }
   
   .accept-button:hover {
