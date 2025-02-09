@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import pdfFile from './assets/Priavcy-Notice-Hindi (1).pdf'; // Adjust the path as necessary
+import pdfFile from './assets/Privacy Norice_UBI_Hindi.pdf'; // Adjust the path as necessary
 import './PrivacyPolicyPDF.css'; // CSS for styling
 
 const PrivacyPolicyPDFHindi = ({ onClose }) => {
