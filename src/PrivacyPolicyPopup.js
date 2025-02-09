@@ -18,7 +18,7 @@ function PrivacyPolicyPopup({ onClose, onAdjustCookies }) {
                 </button>
                 <h2>Cookie Policy</h2>
                 <p>
-                    The website <strong>www.sbibank.com</strong> (the “Website”) uses cookies, including third-party cookies. This policy will
+                    The website <strong>www.unionbankofindia.co.in</strong> (the “Website”) uses cookies, including third-party cookies. This policy will
                     inform you how the cookies are placed, used on this website and how you can manage them.
                 </p>
                 <button className="adjust-cookies-button" onClick={onAdjustCookies}>
