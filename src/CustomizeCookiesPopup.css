@@ -128,8 +128,8 @@ input:checked+.slider:before {
 }
 
 .reject-all {
-    color: #007bff;
-    border: 1px solid #007bff;
+    color: #006bb7;
+    border: 1px solid #006bb7;
     background-color: transparent;
     padding: 10px 20px;
     font-size: 15px;
@@ -143,7 +143,7 @@ input:checked+.slider:before {
 }
 
 .save-preferences {
-    background-color: #007bff;
+    background-color: #006bb7;
     color: white;
     font-size: 15px;
 
@@ -154,7 +154,7 @@ input:checked+.slider:before {
 }
 
 .accept-all-button {
-    background-color: #007bff;
+    background-color: #006bb7;
     color: white;
     border: none;
     padding: 10px 20px;

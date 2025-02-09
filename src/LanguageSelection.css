@@ -36,7 +36,7 @@
 
 .language-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Increase the number of columns to 4 */
+  grid-template-columns: repeat(5, 1fr); /* Increase the number of columns to 4 */
   gap: 15px; /* Increase gap between buttons to make the layout more balanced */
   margin-top: 60px; /* Space between the heading and the buttons */
 }

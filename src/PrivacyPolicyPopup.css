@@ -29,7 +29,7 @@
     top: 15px;
     right: 15px;
     background-color: transparent;
-    color: #007bff;
+    color: #006bb7;
     /* Blue for the 'X' button */
     border: none;
     font-size: 20px;
@@ -58,7 +58,7 @@
 }
 
 .close-button-bottom {
-    background-color: #007bff;
+    background-color: #006bb7;
     /* Blue for the 'Close' button */
     color: white;
     border: none;

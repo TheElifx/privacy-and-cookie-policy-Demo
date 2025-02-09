@@ -3,7 +3,7 @@
 }
 
 .background-container {
-  background-image: url('./assets/Dash.PNG');
+  background-image: url('./assets/union.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -17,8 +17,8 @@
 
 .navbar {
   position: absolute;
-  top: 33px;
-  left: -492px;
+  top: -10px;
+  left: -442px;
   width: 100%;
   padding: 10px;
   display: flex;
@@ -27,7 +27,7 @@
 
 .privacy-button {
   background-color: transparent; /* Button color matching the navbar */
-  color: #d9deeb;
+  color: black;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -35,9 +35,7 @@
   font-size: 15px;
 }
 
-.privacy-button:hover {
-  background-color: #0056b3; /* Darker on hover */
-}
+
 
 .popup-overlay {
   position: fixed;

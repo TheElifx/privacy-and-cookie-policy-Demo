@@ -5,10 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // Import the favicon from the src folder
-import sbiLogo from './assets/61fc00073cf0e70004222069.png'; // Adjust path if needed
+import sbiLogo from './assets/UNIONBANK.NS.png'; // Adjust path if needed
 
 // Change the page title
-document.title = "SBI";
+document.title = "UNION";
 
 // Function to change the favicon dynamically
 const setFavicon = (iconUrl) => {
