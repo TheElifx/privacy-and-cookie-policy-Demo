@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/privacy-and-cookie-policy-Demo/static/css/main.2944ac0c.css",
-    "main.js": "/privacy-and-cookie-policy-Demo/static/js/main.2d41bed9.js",
+    "main.css": "/privacy-and-cookie-policy-Demo/static/css/main.953d2376.css",
+    "main.js": "/privacy-and-cookie-policy-Demo/static/js/main.ce6c1975.js",
     "static/js/453.34fa4ce2.chunk.js": "/privacy-and-cookie-policy-Demo/static/js/453.34fa4ce2.chunk.js",
-    "static/media/Dash.PNG": "/privacy-and-cookie-policy-Demo/static/media/Dash.21ffe801b348d6bf284e.PNG",
+    "static/media/BOI1.png": "/privacy-and-cookie-policy-Demo/static/media/BOI1.02cedd980eb811c4feb9.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/privacy-and-cookie-policy-Demo/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/Privacy Notice_BOI_Hindi.pdf": "/privacy-and-cookie-policy-Demo/static/media/Privacy Notice_BOI_Hindi.7e60378c0ae7df05edc7.pdf",
+    "static/media/Privacy Notice_BOI.pdf": "/privacy-and-cookie-policy-Demo/static/media/Privacy Notice_BOI.5c0ac9eaa883130eeca7.pdf",
+    "static/media/fontawesome-webfont.eot": "/privacy-and-cookie-policy-Demo/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/privacy-and-cookie-policy-Demo/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/privacy-and-cookie-policy-Demo/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/privacy-and-cookie-policy-Demo/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/boi.logo.png": "/privacy-and-cookie-policy-Demo/static/media/boi.logo.eb4d9ace34c8b26788d7.png",
+    "static/media/Arrow_Up.svg": "/privacy-and-cookie-policy-Demo/static/media/Arrow_Up.8807a5f016acba162502305bc140bfb5.svg",
     "index.html": "/privacy-and-cookie-policy-Demo/index.html",
-    "main.2944ac0c.css.map": "/privacy-and-cookie-policy-Demo/static/css/main.2944ac0c.css.map",
-    "main.2d41bed9.js.map": "/privacy-and-cookie-policy-Demo/static/js/main.2d41bed9.js.map",
+    "main.953d2376.css.map": "/privacy-and-cookie-policy-Demo/static/css/main.953d2376.css.map",
+    "main.ce6c1975.js.map": "/privacy-and-cookie-policy-Demo/static/js/main.ce6c1975.js.map",
     "453.34fa4ce2.chunk.js.map": "/privacy-and-cookie-policy-Demo/static/js/453.34fa4ce2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2944ac0c.css",
-    "static/js/main.2d41bed9.js"
+    "static/css/main.953d2376.css",
+    "static/js/main.ce6c1975.js"
   ]
 }
