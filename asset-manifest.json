@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/privacy-and-cookie-policy-Demo/static/css/main.cd054985.css",
+    "main.js": "/privacy-and-cookie-policy-Demo/static/js/main.5d889c01.js",
+    "static/js/453.34fa4ce2.chunk.js": "/privacy-and-cookie-policy-Demo/static/js/453.34fa4ce2.chunk.js",
+    "static/media/BOI.png": "/privacy-and-cookie-policy-Demo/static/media/BOI.e7fabd146e8211782f67.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/privacy-and-cookie-policy-Demo/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/Privacy Notice_BOI_Hindi.pdf": "/privacy-and-cookie-policy-Demo/static/media/Privacy Notice_BOI_Hindi.7e60378c0ae7df05edc7.pdf",
+    "static/media/Privacy Notice_BOI.pdf": "/privacy-and-cookie-policy-Demo/static/media/Privacy Notice_BOI.5c0ac9eaa883130eeca7.pdf",
+    "static/media/fontawesome-webfont.eot": "/privacy-and-cookie-policy-Demo/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/privacy-and-cookie-policy-Demo/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/privacy-and-cookie-policy-Demo/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/privacy-and-cookie-policy-Demo/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/boi.logo.png": "/privacy-and-cookie-policy-Demo/static/media/boi.logo.eb4d9ace34c8b26788d7.png",
+    "static/media/Arrow_Up.svg": "/privacy-and-cookie-policy-Demo/static/media/Arrow_Up.8807a5f016acba162502305bc140bfb5.svg",
+    "index.html": "/privacy-and-cookie-policy-Demo/index.html",
+    "main.cd054985.css.map": "/privacy-and-cookie-policy-Demo/static/css/main.cd054985.css.map",
+    "main.5d889c01.js.map": "/privacy-and-cookie-policy-Demo/static/js/main.5d889c01.js.map",
+    "453.34fa4ce2.chunk.js.map": "/privacy-and-cookie-policy-Demo/static/js/453.34fa4ce2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd054985.css",
+    "static/js/main.5d889c01.js"
+  ]
+}
