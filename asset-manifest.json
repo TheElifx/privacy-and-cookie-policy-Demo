@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/privacy-and-cookie-policy-Demo/static/css/main.953d2376.css",
-    "main.js": "/privacy-and-cookie-policy-Demo/static/js/main.ce6c1975.js",
+    "main.css": "/privacy-and-cookie-policy-Demo/static/css/main.7ac24172.css",
+    "main.js": "/privacy-and-cookie-policy-Demo/static/js/main.26889e6d.js",
     "static/js/453.34fa4ce2.chunk.js": "/privacy-and-cookie-policy-Demo/static/js/453.34fa4ce2.chunk.js",
     "static/media/BOI1.png": "/privacy-and-cookie-policy-Demo/static/media/BOI1.02cedd980eb811c4feb9.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/privacy-and-cookie-policy-Demo/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -14,12 +14,12 @@
     "static/media/boi.logo.png": "/privacy-and-cookie-policy-Demo/static/media/boi.logo.eb4d9ace34c8b26788d7.png",
     "static/media/Arrow_Up.svg": "/privacy-and-cookie-policy-Demo/static/media/Arrow_Up.8807a5f016acba162502305bc140bfb5.svg",
     "index.html": "/privacy-and-cookie-policy-Demo/index.html",
-    "main.953d2376.css.map": "/privacy-and-cookie-policy-Demo/static/css/main.953d2376.css.map",
-    "main.ce6c1975.js.map": "/privacy-and-cookie-policy-Demo/static/js/main.ce6c1975.js.map",
+    "main.7ac24172.css.map": "/privacy-and-cookie-policy-Demo/static/css/main.7ac24172.css.map",
+    "main.26889e6d.js.map": "/privacy-and-cookie-policy-Demo/static/js/main.26889e6d.js.map",
     "453.34fa4ce2.chunk.js.map": "/privacy-and-cookie-policy-Demo/static/js/453.34fa4ce2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.953d2376.css",
-    "static/js/main.ce6c1975.js"
+    "static/css/main.7ac24172.css",
+    "static/js/main.26889e6d.js"
   ]
 }
