@@ -1,62 +1,126 @@
-.close-button i {
-  font-size: 18px; /* Reduce size */
-  font-weight: 300; /* Make it thinner */
-  color: black;
+/* Prevent background interaction */
+body.pdf-open {
+  overflow: hidden;
 }
 
+/* Background overlay */
 .pdf-overlay {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* Ensures the overlay is on top */
+  z-index: 1000;
 }
 
+/* Popup container - Large size */
 .pdf-container {
-  height: 65%;
   background-color: white;
   padding: 20px;
-  width: 100%;
-  max-width: 740px;
+  width: 95%;
+  max-width: 90%; /* Large but responsive */
+  height: 80vh; /* Increased height */
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 1001; /* Ensure it's on top of the overlay */
+  z-index: 1001;
+  border-radius: 10px;
 }
 
+/* Top bar for layout */
+.pdf-top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+/* Centered title */
 .pdf-heading {
-  position: absolute;
-  top: 10px;
-  left: 20px;
-  font-size: 24px;
+  font-size: 1.8rem;
   font-weight: bold;
   color: black;
+  flex-grow: 1;
+  text-align: center;
 }
 
+/* Full-screen button on the left */
+.fullscreen-button {
+  background-color: #0075be;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  left: 0;
+}
+
+.fullscreen-button:hover {
+  background-color: #005a94;
+}
+
+/* Close button on the right */
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
+/* PDF Viewer */
 .pdf-viewer {
   width: 100%;
-  height: 500px;
+  height: 600px; /* Large but fits well */
   border: none;
-  margin-top: 60px; /* Ensure the PDF appears below the heading */
+  margin-top: 10px;
 }
 
+/* Bottom Close Button */
 .bottom-close-button {
   background-color: #0056b3;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 12px 20px;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 15px;
   width: 100%;
+  border-radius: 5px;
 }
 
-/* Add this for interaction prevention with the background */
-body.pdf-open {
-  overflow: hidden; /* Prevents scrolling in the background when the PDF is open */
+.bottom-close-button:hover {
+  background-color: #003d82;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .pdf-container {
+    width: 95%;
+    height: 75vh;
+  }
+
+  .pdf-heading {
+    font-size: 1.5rem;
+  }
+
+  .pdf-viewer {
+    height: 450px;
+  }
+
+  .fullscreen-button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
 }

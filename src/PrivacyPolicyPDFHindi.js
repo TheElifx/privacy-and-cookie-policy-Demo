@@ -1,37 +1,47 @@
 import React, { useEffect } from 'react';
-import pdfFile from './assets/Privacy Notice_BOI_Hindi.pdf'; // Adjust the path as necessary
-import './PrivacyPolicyPDF.css'; // CSS for styling
+import pdfFile from './assets/Privacy Notice_BOI_Hindi.pdf'; // Adjust path as needed
+import './PrivacyPolicyPDF.css';
 
 const PrivacyPolicyPDFHindi = ({ onClose }) => {
 
-    // Apply and remove the body class to prevent background scrolling
+    // Prevent scrolling when popup is open
     useEffect(() => {
-        // Add the class when the component is mounted (popup open)
         document.body.classList.add('pdf-open');
-
-        // Remove the class when the component is unmounted (popup close)
         return () => {
             document.body.classList.remove('pdf-open');
         };
     }, []);
 
+    // Function to open PDF in a new tab
+    const openFullScreen = () => {
+        window.open(pdfFile, '_blank');
+    };
+
     return (
         <div className="pdf-overlay">
             <div className="pdf-container">
-                {/* Top-left heading */}
-                <h2 className="pdf-heading">Privacy Policy</h2>
 
-                {/* Font Awesome Close button */}
-                <button className="close-button" onClick={onClose}>
-                    <i className="fa fa-times" aria-hidden="true"></i>
-                </button>
+                {/* Top bar for controls */}
+                <div className="pdf-top-bar">
 
-                {/* PDF Embed */}
+                    {/* Full-screen button on the left */}
+                    <button className="fullscreen-button" onClick={openFullScreen}>
+                        <i className="fa fa-expand" aria-hidden="true"></i> Full Screen
+                    </button>
+
+                    {/* Centered title */}
+                    <h2 className="pdf-heading">Privacy Policy</h2>
+
+                    {/* Close button on the right */}
+                    <button className="close-button" onClick={onClose}>
+                        <i className="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+                {/* PDF Embed Viewer */}
                 <embed
                     src={pdfFile}
                     type="application/pdf"
-                    width="100%"
-                    height="500px"
                     className="pdf-viewer"
                 />
 
