@@ -53,7 +53,7 @@ body.pdf-open {
   margin: 2px;
 }
 
-/* Full-screen button on the left */
+/* Full-screen button - Move to Top Right */
 .fullscreen-button {
   background-color: #0075be;
   color: white;
@@ -65,13 +65,17 @@ body.pdf-open {
   display: flex;
   align-items: center;
   gap: 5px;
+  
+  /* Positioning */
   position: absolute;
-  left: 0;
+  top: 10px;  /* Adjust as needed */
+  right: 10px; /* Move to top-right */
 }
 
 .fullscreen-button:hover {
   background-color: #005a94;
 }
+
 
 /* Close button on the right */
 .close-button {
