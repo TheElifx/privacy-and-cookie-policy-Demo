@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/privacy-and-cookie-policy-Demo/static/css/main.8c65c827.css",
+    "main.css": "/privacy-and-cookie-policy-Demo/static/css/main.7a806c2a.css",
     "main.js": "/privacy-and-cookie-policy-Demo/static/js/main.17d639f7.js",
     "static/js/453.34fa4ce2.chunk.js": "/privacy-and-cookie-policy-Demo/static/js/453.34fa4ce2.chunk.js",
     "static/media/BOI1.png": "/privacy-and-cookie-policy-Demo/static/media/BOI1.02cedd980eb811c4feb9.png",
@@ -14,12 +14,12 @@
     "static/media/boi.logo.png": "/privacy-and-cookie-policy-Demo/static/media/boi.logo.eb4d9ace34c8b26788d7.png",
     "static/media/Arrow_Up.svg": "/privacy-and-cookie-policy-Demo/static/media/Arrow_Up.8807a5f016acba162502305bc140bfb5.svg",
     "index.html": "/privacy-and-cookie-policy-Demo/index.html",
-    "main.8c65c827.css.map": "/privacy-and-cookie-policy-Demo/static/css/main.8c65c827.css.map",
+    "main.7a806c2a.css.map": "/privacy-and-cookie-policy-Demo/static/css/main.7a806c2a.css.map",
     "main.17d639f7.js.map": "/privacy-and-cookie-policy-Demo/static/js/main.17d639f7.js.map",
     "453.34fa4ce2.chunk.js.map": "/privacy-and-cookie-policy-Demo/static/js/453.34fa4ce2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c65c827.css",
+    "static/css/main.7a806c2a.css",
     "static/js/main.17d639f7.js"
   ]
 }
