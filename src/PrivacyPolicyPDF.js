@@ -31,11 +31,6 @@ const PrivacyPolicyPDF = ({ onClose }) => {
 
                     {/* Centered title */}
                     <h2 className="pdf-heading">Privacy Policy</h2>
-
-                    {/* Close button on the right */}
-                    <button className="close-button" onClick={onClose}>
-                        <i className="fa fa-times" aria-hidden="true"></i>
-                    </button>
                 </div>
 
                 {/* PDF Embed Viewer */}
